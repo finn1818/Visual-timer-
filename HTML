@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Class Timer</title>
+  <style>
+    /* Basic styling for the timer interface */
+    body { font-family: Arial, sans-serif; text-align: center; padding: 50px; }
+    #timer { font-size: 48px; margin-bottom: 20px; }
+    button { padding: 10px 20px; font-size: 16px; margin: 5px; }
+  </style>
+</head>
+<body>
+  <h1>Class Timer</h1>
+  <div id="timer">60:00</div>
+  <button id="startBtn">Start</button>
+  <button id="breakBtn" disabled>Take Break (0/3)</button>
+  <div id="prompt" style="display:none;">
+    <p>15 minutes completed. Continue for full points or stop for half points?</p>
+    <button id="continueBtn">Continue</button>
+    <button id="stopBtn">Stop</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
